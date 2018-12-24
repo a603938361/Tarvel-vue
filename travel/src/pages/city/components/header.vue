@@ -16,8 +16,8 @@ export default {
 <style lang="stylus" scoped>
     @import '~styles/varibles.styl';
     .header
-        height .86rem
-        line-height .86rem
+        height $headerHeight
+        line-height $headerHeight
         overflow hidden
         text-align center
         font-size .32rem
